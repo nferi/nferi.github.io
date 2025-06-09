@@ -1,1 +1,0 @@
-import{j as t}from"./jsx-runtime.D_zvdyIk.js";import"./index.BVOCwoKb.js";/* empty css                                  */const p=({id:r,title:e,...i})=>t.jsx("div",{children:"YOUTUBE"});export{p as default};

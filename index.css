@@ -88,6 +88,11 @@ header p {
 
 section {
     padding: 80px 20px 30px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.container {
     max-width: 600px;
     margin: auto;
 }
@@ -98,12 +103,13 @@ section h2 {
     margin-top: 0px;
     margin-bottom: 50px;
     text-align: center;
-    line-height: 1.1em;
+    line-height: 1.2em;
 }
 
 section h3 {
     color: #4e568f;
     font-size: 2em;
+    margin-top: 0px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -114,17 +120,17 @@ section p, section ul {
 }
 
 section p {
-    margin:0 auto 30px;
-    color:#444;
-    text-align:center;
+    margin: 0 auto 30px;
+    color: #444;
+    text-align: center;
 }
 
 section .step {
-    display:block;
-    color:#4e568f;
-    font-size:1.1em;
-    font-weight:600;
-    letter-spacing:0.05em;
+    display: block;
+    color: #4e568f;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 }
 
 .process-cards {
@@ -153,12 +159,23 @@ section .step {
     color: #2c74ff;
 }
 
+.process-card p {
+    margin: 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
     margin: 0 auto;
     margin-bottom: 50px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form button {
+    margin-top: 15px;
 }
 
 input, textarea {
@@ -166,6 +183,8 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 1em;
+    margin: 5px 0px 15px 0px;
+    font-family: inherit;
 }
 
 button {
@@ -239,6 +258,7 @@ footer {
     padding-bottom: 1em;
 }
 
-form label {
-    font-weight: bold;
+.big-emoji {
+    display: block;
+    font-size: 2.5em;
 }
